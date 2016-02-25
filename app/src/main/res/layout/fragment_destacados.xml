@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/view_inicio"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/logoprincipal"
+        android:paddingTop="10dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/nombre_logo_principal"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/credenciales_mensaje"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/backgroud_main"
+        android:paddingTop="10dp"
+        android:layout_weight="0.08" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtUsuario"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/credenciales_hint_usuario"
+        android:textColorHint="#CFCFCF"
+        android:drawableLeft="@drawable/user_credenciales"
+        android:ellipsize="start"
+        android:layout_weight="0.08" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtContrasena"
+        android:drawableLeft="@drawable/contrasena_credenciales"
+        android:ellipsize="start"
+        android:hint="@string/credenciales_hint_contrasena"
+        android:textColorHint="#CFCFCF"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/credenciales_recordar_contrasena"
+        android:id="@+id/rdbRecordar"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:layout_width="127dp"
+        android:layout_height="36dp"
+        android:text="@string/credenciales_ingresar"
+        android:id="@+id/btnAcceder"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/text_color"
+        android:background="@color/colorAccent" />
+
+
+</LinearLayout>

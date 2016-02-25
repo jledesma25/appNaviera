@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mi Música</string>
+    <string name="texto_primario">La música que te gusta, donde sea</string>
+    <string name="texto_secundario">\@AcademiaMoviles</string>
+
+    <!-- Login -->
+    <string name="nombre_logo_principal">Naviera Transoceanica</string>
+    <string name="credenciales_mensaje">Ingrese su usuario y contraseña</string>
+    <string name="credenciales_hint_usuario">Digite su usuario aqui</string>
+    <string name="credenciales_hint_contrasena">Digite su contraseña aqui</string>
+    <string name="credenciales_recordar_contrasena">Recordar contraseña</string>
+    <string name="credenciales_ingresar">Ingresar</string>
+    <string name="title_activity_home_controller">HomeControllerActivity</string>
+
+    <!-- Publico -->
+    <string name="board_eventos">Eventos</string>
+    <string name="board_noticias">Noticias</string>
+    <string name="board_directorio">Directorio</string>
+    <string name="board_cumpleanos">Cumpleaños</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
